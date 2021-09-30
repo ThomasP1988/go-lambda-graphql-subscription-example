@@ -3,13 +3,14 @@ module graphql
 go 1.17
 
 require (
-	github.com/ThomasP1988/go-lambda-graphql-subscription v0.0.1
+	// github.com/ThomasP1988/go-lambda-graphql-subscription v0.0.1
 	github.com/aws/aws-lambda-go v1.26.0
 	github.com/graphql-go/graphql v0.8.0
 	shared v0.0.1
 )
 
 require (
+	github.com/ThomasP1988/go-lambda-graphql-subscription v0.0.0-20210930213907-b0ada4b92d2c // indirect
 	github.com/aws/aws-sdk-go-v2 v1.9.0 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.8.0 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.4.0 // indirect
@@ -31,7 +32,5 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 )
 
-replace (
-	// github.com/ThomasP1988/go-lambda-graphql-subscription v0.0.1 => ./../go-lambda-graphql-subscription
-	shared v0.0.1 => ./../shared
-)
+// github.com/ThomasP1988/go-lambda-graphql-subscription v0.0.1 => ./../go-lambda-graphql-subscription
+replace shared v0.0.1 => ./../shared

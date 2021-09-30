@@ -1,4 +1,6 @@
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
+github.com/ThomasP1988/go-lambda-graphql-subscription v0.0.0-20210930213907-b0ada4b92d2c h1:LC8KlEVim5lMs2zQoL12ceQW8yM7DOMmVtDXM+RCgrY=
+github.com/ThomasP1988/go-lambda-graphql-subscription v0.0.0-20210930213907-b0ada4b92d2c/go.mod h1:3BE899E4ajjE1rTJBNPmeoxmdHmwniDg+cDJ8zxcPvg=
 github.com/aws/aws-lambda-go v1.26.0 h1:6ujqBpYF7tdZcBvPIccs98SpeGfrt/UOVEiexfNIdHA=
 github.com/aws/aws-lambda-go v1.26.0/go.mod h1:jJmlefzPfGnckuHdXX7/80O3BvUUi12XOkbv4w9SGLU=
 github.com/aws/aws-sdk-go-v2 v1.7.0/go.mod h1:tb9wi5s61kTDA5qCkcDbt3KRVV74GGslQkl/DRdX/P4=

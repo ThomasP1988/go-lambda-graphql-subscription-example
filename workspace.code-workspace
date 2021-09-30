@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "infra"
+		},
+		{
+			"path": "shared"
+		},
+		{
+			"path": "graphql"
+		}
+	],
+	"settings": {}
+}
